@@ -53,3 +53,5 @@ def no_decorators():
     print("how boring")
 
 run_before(cool_event, no_decorators)
+
+cool_event()
